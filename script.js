@@ -103,5 +103,6 @@ selectedCity.addEventListener('keypress', (e) => {
     }
 })
 
+
 // drizzle
 // rain
