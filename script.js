@@ -28,32 +28,39 @@ const displayData = (Adata) => {
 
   switch (Adata.weather[0].main) {
       case "Mist":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/mist.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/mist1.jpg')";
           break;
       case "Smoke":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/smoke1.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/smoke2.jpg')";
           break;
       case "Clouds":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/clouds.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/clouds1.jpg')";
           break;
       case "Fog":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/fog.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/fog1.jpg')";
           break;
       case "Haze":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/haze.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/haze1.jpg')";
           break;
       case "Clear":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/clear.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/clear1.jpg')";
           break;
       case "Snow":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/snow.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/snow1.jpg')";
           break;
       case "Drizzle":
       document.querySelector(".abcd").style.backgroundImage = "url('images/drizzle.jpg')";
           break;
       case "Rain":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/rain.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/rain1.png')";
           break;
+      case "Thunderstrom":
+        document.querySelector(".abcd").style.backgroundImage = "url('images/thunder.png')";
+          break;
+      default:
+      document.querySelector(".abcd").style.background = "linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143))";
+          break;
+
   }
 
   let monthsYear = [
@@ -104,5 +111,4 @@ selectedCity.addEventListener('keypress', (e) => {
 })
 
 
-// drizzle
-// rain
+
