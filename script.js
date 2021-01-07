@@ -28,7 +28,7 @@ const displayData = (Adata) => {
 
   switch (Adata.weather[0].main) {
       case "Mist":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/mist1.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/mist.jpg')";
           break;
       case "Smoke":
       document.querySelector(".abcd").style.backgroundImage = "url('images/smoke2.jpg')";
@@ -40,7 +40,7 @@ const displayData = (Adata) => {
       document.querySelector(".abcd").style.backgroundImage = "url('images/fog1.jpg')";
           break;
       case "Haze":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/haze1.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/haze.jpg')";
           break;
       case "Clear":
       document.querySelector(".abcd").style.backgroundImage = "url('images/clear1.jpg')";
@@ -49,7 +49,7 @@ const displayData = (Adata) => {
       document.querySelector(".abcd").style.backgroundImage = "url('images/snow1.jpg')";
           break;
       case "Drizzle":
-      document.querySelector(".abcd").style.backgroundImage = "url('images/drizzle.jpg')";
+      document.querySelector(".abcd").style.backgroundImage = "url('images/rain1.png')";
           break;
       case "Rain":
       document.querySelector(".abcd").style.backgroundImage = "url('images/rain1.png')";
